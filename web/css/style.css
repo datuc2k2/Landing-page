@@ -49,7 +49,7 @@ body {
   position: absolute;
   top: 50%;
   right: -5px;
-  background-color: #24d278;
+  background-color: #277ABE;
   -webkit-transform: translate(100%, -50%);
           transform: translate(100%, -50%);
 }
@@ -57,7 +57,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/anhBia.jpg);
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -71,13 +71,14 @@ body {
   right: 0;
   width: 45%;
   height: 100%;
-  background-image: url(../images/hero-side-bg.png);
+  background-image: url(../images/anhNen.png);
   background-size: cover;
 }
 
 .sub_page .hero_area {
   height: auto;
   background-size: auto;
+  background-image: url(../images/anhNen.png);
 }
 
 .hero_area.sub_pages {
@@ -130,7 +131,7 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
-  color: #24d278;
+  color: #277ABE;
 }
 
 a,
@@ -215,7 +216,7 @@ a:focus {
 }
 
 .login_btn-container a {
-  color: #24d278;
+  color: #277ABE;
   text-transform: uppercase;
 }
 
@@ -277,7 +278,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  color: #24d278;
+  color: #277ABE;
   text-transform: uppercase;
 }
 
@@ -304,7 +305,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 6px 0;
-  background-color: #24d278;
+  background-color: #277ABE;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -315,8 +316,8 @@ a:focus {
 
 .slider_section .detail-box .btn-box .btn-1:hover {
   background-color: transparent;
-  border-color: #24d278;
-  color: #24d278;
+  border-color: #277ABE;
+  color: #277ABE;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
@@ -355,7 +356,7 @@ a:focus {
 }
 
 .slider_section .play_btn {
-  background-color: #24d278;
+  background-color: #277ABE;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -404,7 +405,7 @@ a:focus {
   position: absolute;
   top: 50%;
   left: 50%;
-  background-color: #24d278;
+  background-color: #277ABE;
   opacity: 1;
   border-radius: 100%;
   -webkit-transform: translate(-50%, -50%);
@@ -458,7 +459,7 @@ a:focus {
   width: 15px;
   height: 15px;
   border-radius: 100%;
-  background-color: #24d278;
+  background-color: #277ABE;
   opacity: 1;
   border: none;
   background-clip: unset;
@@ -528,7 +529,7 @@ a:focus {
 
 .trending_section .tab_container .t-link-box {
   margin: 65px 0;
-  color: #24d278;
+  color: #277ABE;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -545,7 +546,7 @@ a:focus {
 }
 
 .trending_section .tab_container .t-link-box hr {
-  background-color: #24d278;
+  background-color: #277ABE;
   width: 60px;
   height: 1.5px;
   border: none;
@@ -561,7 +562,7 @@ a:focus {
 }
 
 .trending_section .tab_container .t-link-box[aria-expanded="true"] .t-name {
-  color: #24d278;
+  color: #277ABE;
 }
 
 .trending_section .img_container {
@@ -618,7 +619,7 @@ a:focus {
 .discount_section .detail-box h2.main_heading {
   font-size: 3rem;
   padding: 0;
-  color: #24d278;
+  color: #277ABE;
   text-transform: uppercase;
 }
 
@@ -673,7 +674,7 @@ a:focus {
 }
 
 .brand_section .brand_container .box h6.price {
-  color: #24d278;
+  color: #277ABE;
 }
 
 .brand_section .brand_container .box .new {
@@ -694,7 +695,7 @@ a:focus {
 }
 
 .brand_section .brand_container .box:hover {
-  background-color: #24d278;
+  background-color: #277ABE;
 }
 
 .brand_section .brand_container .box:hover h6.price {
@@ -780,7 +781,7 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #24d278;
+  background-color: #277ABE;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -793,8 +794,8 @@ a:focus {
 
 .contact_section button:hover {
   background-color: transparent;
-  border-color: #24d278;
-  color: #24d278;
+  border-color: #277ABE;
+  color: #277ABE;
 }
 
 .contact_section .map_container {
@@ -825,8 +826,15 @@ a:focus {
   margin-left: 25px;
   margin-right: 25px;
   padding: 25px;
+  width: 50%;
   -webkit-box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.1);
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .client_section .client_box {
+    width: 90%;
+  }
 }
 
 .client_section .client_box .client-id {
@@ -851,7 +859,7 @@ a:focus {
 }
 
 .client_section .client_box .client-id .name p {
-  color: #24d278;
+  color: #277ABE;
   margin: 0;
 }
 
@@ -958,7 +966,7 @@ a:focus {
 .info_section .info_form form button {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #24d278;
+  background-color: #277ABE;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -971,8 +979,8 @@ a:focus {
 
 .info_section .info_form form button:hover {
   background-color: transparent;
-  border-color: #24d278;
-  color: #24d278;
+  border-color: #277ABE;
+  color: #277ABE;
 }
 
 .info_section .info_form .social_box {
